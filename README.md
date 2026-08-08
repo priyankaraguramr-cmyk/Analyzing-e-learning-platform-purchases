@@ -9,12 +9,17 @@ Repository Contents
 File	Description:
 Elearning_analysis.sql	
 Complete MySQL script: database & table creation, sample data inserts, join queries, 
-all 12 analytical queries (Q1–Q12), subqueries, CTEs, CASE, NULL handling, the category_performance_view.
+all 12 analytical queries (Q1–Q12), subqueries, CTEs, CASE, NULL handling, 
+the category_performance_view.
+
 DA_V8_Summary_Report.docx	One-page summary report with key insights and recommendations derived from the query output.
 screenshots/	Folder containing result screenshots for each query, numbered to match the sections below.
 
-Requirements
-●MySQL 8.0+ or MySQL Workbench connected to a MySQL 8.0+ server (required for the WITH clause / CTE syntax used in Q9 and Q10).
+Requirements:
+
+●MySQL 8.0+ or MySQL Workbench connected to a MySQL 8.0+ server (required for the WITH
+clause / CTE syntax used in Q9 and Q10).
+
 ●No external dependencies - the script is plain SQL and runs in any standard MySQL client.
 
 How to Run
