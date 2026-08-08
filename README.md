@@ -52,7 +52,10 @@ course_id	INT, FK → courses	References the purchased course
 quantity	INT	Number of units purchased
 purchase_date	DATE	Date of purchase
 
-Sample Data
+Sample Data:
+
+
+
 ●5 learners across 4 countries (USA, India, Italy, Japan)
 
 ●6 courses across 5 categories (Beginner, Data Science, Marketing,
