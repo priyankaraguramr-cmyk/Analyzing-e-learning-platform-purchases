@@ -54,8 +54,12 @@ purchase_date	DATE	Date of purchase
 
 Sample Data
 ●5 learners across 4 countries (USA, India, Italy, Japan)
-●6 courses across 5 categories (Beginner, Data Science, Marketing, Web Development, Design)
-●8 purchase records — one course (UX Design Basics) is intentionally left unpurchased to demonstrate NULL-handling and never-purchased-course queries
+
+●6 courses across 5 categories (Beginner, Data Science, Marketing,
+Web Development, Design)
+
+●7 purchase records — one course (UX Design Basics) is intentionally left 
+unpurchased to demonstrate NULL-handling and never-purchased-course queries
 
 Queries Included:
 Query	Description:
