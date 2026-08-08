@@ -92,17 +92,28 @@ Q12	View: category_performance_view showing revenue, purchase count, and average
 
 Key Findings:
 ●Total platform revenue across all purchases: INR 44,385.00
-●Web Development and Data Science are the highest-revenue categories, together contributing over 73% of total revenue
+
+●Web Development and Data Science are the highest-revenue categories, together contributing 
+over 73% of total revenue
+
 ●Python for Beginners is the most purchased course by volume
-●Kenji Sato is the top-spending learner (High Value tier); 3 of 5 learners purchased across more than one category
+
+●Kenji Sato is the top-spending learner (High Value tier); 3 of 5 
+learners purchased across more than one category
+
 ●UX Design Basics recorded zero purchases
 
 Full insights and recommendations are in DA_V8_Summary_Report.docx.
+
 Screenshots
-The screenshots/ folder contains one image per query result, matching the section headings in elearning_analysis.sql: 
+The screenshots/ folder contains one image per query result, matching the section
+headings in e-learning_analysis.sql: 
+
 database & table creation, sample data, INNER/LEFT/RIGHT joins, and Q1 through Q12.
 Notes
 ●This script has been tested end-to-end and executes without errors.
+
 ●Q9 and Q10 use the WITH clause (CTE), which requires MySQL 8.0 or later.
-●The database is dropped and recreated at the start of the script (DROP DATABASE IF EXISTS), so re-running it will
-not cause duplicate-key errors.
+
+●The database is dropped and recreated at the start of the script (DROP DATABASE IF EXISTS), 
+so re-running it will not cause duplicate-key errors.
